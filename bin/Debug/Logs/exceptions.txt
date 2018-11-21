@@ -1,0 +1,106 @@
+
+Exception logged 6/13/2018 10:24:10 PM in Room.SendMessage:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.GetUserList() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1713
+   at Yezz.HabboHotel.Rooms.Room.SendMessage(IServerPacket Message, Boolean UsersWithRightsOnly) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\Room.cs:line 1155
+Source:
+UFOServer
+Data:
+Message:
+Object reference not set to an instance of an object.
+Stack trace:
+   at Yezz.HabboHotel.Rooms.RoomUserManager.GetUserList() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1713
+   at Yezz.HabboHotel.Rooms.Room.SendMessage(IServerPacket Message, Boolean UsersWithRightsOnly) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\Room.cs:line 1155
+
+
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.RemoveUserFromRoom(GameClient Session, Boolean NotifyClient, Boolean NotifyKick) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 423
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Items.Item.ProcessUpdates() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Items\Item.cs:line 1161
+
+
+
+Exception logged 6/21/2018 3:11:17 AM in Room.SendMessage:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.GetUserList() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1713
+   at Yezz.HabboHotel.Rooms.Room.SendMessage(IServerPacket Message, Boolean UsersWithRightsOnly) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\Room.cs:line 1155
+Source:
+UFOServer
+Data:
+Message:
+Object reference not set to an instance of an object.
+Stack trace:
+   at Yezz.HabboHotel.Rooms.RoomUserManager.GetUserList() in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1713
+   at Yezz.HabboHotel.Rooms.Room.SendMessage(IServerPacket Message, Boolean UsersWithRightsOnly) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\Room.cs:line 1155
+
+
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.UpdateUserStatus(RoomUser User, Boolean cyclegameitems) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1527
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.UpdateUserStatus(RoomUser User, Boolean cyclegameitems) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1527
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.UpdateUserStatus(RoomUser User, Boolean cyclegameitems) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1527
+
+
+
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.Rooms.RoomUserManager.UpdateUserStatus(RoomUser User, Boolean cyclegameitems) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\Rooms\RoomUserManager.cs:line 1527
+
+

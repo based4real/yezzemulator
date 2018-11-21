@@ -1,0 +1,204 @@
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 349
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 333
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 177
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 285
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 393
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 333
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Yezz.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\Users\Administrator\Desktop\UFO.Server\HabboHotel\GameClients\GameClient.cs:line 177
+

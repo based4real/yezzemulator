@@ -1,0 +1,912 @@
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '481' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '532' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '1213' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3108' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '1487' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+REPLACE INTO `user_achievements` VALUES ('2987', @group, '2', '166')
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3248' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3007' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3248' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2482' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '2362',@creator_name, '3713','1531341683000', '1531338246.2045')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '4b941fc83f36e9751112d54fc9479314' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '1933' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '1933' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3509',@creator_name, '3872','1531444619300', '1531444651.41345')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'a72d42c8c7a68fb2161794fba36446d1' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3301' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2762' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3509',@creator_name, '3872','1531528316800', '1531528722.01133')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'b6f5f6aa9ada7b11e446b063ae8f24d3' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2762' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2762' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'jabboz2.ranks' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3521' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2676' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '2994' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '576',@creator_name, '3886','1531838296000', '1531838381.69047')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'fffd04ada9b494cb40929e9de399b1dd' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '3586' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '3462' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '3509' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '3007' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+UPDATE `items` SET `room_id` = '4287', `x` = '3', `y` = '3', `z` = '0', `rot` = '0' WHERE `id` = '693945' LIMIT 1
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+REPLACE INTO `user_achievements` VALUES ('3637', @group, '3', '26')
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `items` SET `room_id` = '4286', `x` = '11', `y` = '24', `z` = '0', `rot` = '0' WHERE `id` = '694030' LIMIT 1
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+REPLACE INTO `user_achievements` VALUES ('1412', @group, '1', '154')
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `items` SET `room_id` = '4286', `x` = '11', `y` = '24', `z` = '0', `rot` = '2' WHERE `id` = '694030' LIMIT 1
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `items` SET `base_item` = 89996, `room_id` = 0, `user_id` = 3150 WHERE `id` = 520719
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+SELECT * FROM ranks
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+SELECT * FROM users WHERE puntos_eventos > 0 && rank <= 4 ORDER BY puntos_eventos DESC LIMIT 16
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+UPDATE `items` SET `base_item` = 89997, `room_id` = 0, `user_id` = 3150 WHERE `id` = 520713
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = @users, `loaded_rooms` = @loadedRooms LIMIT 1;
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = @users, `loaded_rooms` = @loadedRooms LIMIT 1;
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = @users, `loaded_rooms` = @loadedRooms LIMIT 1;
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = @users, `loaded_rooms` = @loadedRooms LIMIT 1;
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = @users, `loaded_rooms` = @loadedRooms LIMIT 1;
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+TRUNCATE `catalog_marketplace_data`
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `users` SET online = '0'
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+TRUNCATE `user_auth_ticket`
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `rooms` SET `users_now` = '0' WHERE `users_now` > '0'
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE `server_status` SET `users_online` = '0', `loaded_rooms` = '0'
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+SELECT `message` FROM `chatlogs_console` WHERE `user_id` = '2077' ORDER BY `id` DESC LIMIT 10
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user_id' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Yezz.Database.Adapter.QueryAdapter.getTable() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 121
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3599' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3599' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'soy' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '.com' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '.es' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '.net' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'perra' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'lForbito', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'te' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '.net' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'babbum' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'xkekos' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'lForbito', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'te' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'lForbito', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'te' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'habbo' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO wordfilter (`word`, `addedby`, `bannable`) VALUES (@ban, 'Mute', '1');
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'habbo' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4337','1532383162900', '1532383191.36027')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'f614dc85b58dfb960be80fa455bcd3cc' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4215','1532383473500', '1532383510.3949')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '17a73dceb9c5e0876925f01e65e5ee5f' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4215','1532383554200', '1532383572.28544')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'c57ea023d2109aabb615908029f5e3ca' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4215','1532383595400', '1532383619.14504')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'd7c59830947e1c94405603fed224a9a0' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4215','1532383783000', '1532383806.05114')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry 'b8b995bef230abcb073b2d1d0d791e4d' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+INSERT INTO items_camera VALUES (@id, '3586',@creator_name, '4215','1532383834400', '1532383858.89497')
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '7b694b985b836f80e30b77d02eabf088' for key 'PRIMARY'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+
+
+Error in query: 
+UPDATE users SET username = @name, changename = '1', newname = @name WHERE id = '3752' LIMIT 1
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'newname' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Yezz.Database.Adapter.QueryAdapter.RunQuery() in C:\Users\Administrator\Desktop\UFO.Server\Database\Adapter\QueryAdapter.cs:line 187
+

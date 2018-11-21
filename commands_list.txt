@@ -1,0 +1,360 @@
+Estos son los comandos que tienes disponibles:
+
+--------------------------------------
+|Estos son los comandos STAFF que tienes disponibles:|
+--------------------------------------
+:spull [USUARIO] - Hala a alguien sin liminte alguno
+:superpull [USUARIO] - Hala a alguien sin liminte alguno
+:supertiron [USUARIO] - Hala a alguien sin liminte alguno
+:spush [USUARIO] - Empuja a otro usuario 3 cuadrados de ti.
+:superpush [USUARIO] - Empuja a otro usuario 3 cuadrados de ti.
+:superempujada [USUARIO] - Empuja a otro usuario 3 cuadrados de ti.
+:sincara  - Te permite ir sin rostro!
+:faceless  - Te permite ir sin rostro!
+:moonwalk  - Ponte en los pies de Michael Jackson.
+:bubblebot [BOTNAME] [BUBBLEID] - Asígnale una burbuja de chat a tu bot.
+:sizenombre Numero del 1 al 20. - Cambia el tamaño de tu nombre
+:emoji Numero del 1 al 189. - Manda un emoji
+:tag %remove% - Borrar prefijo.
+:namecolor %remove% - Borrar color en el nombre.
+:welcome [USUARIO] - Dale la bienvenida a un usuario.
+:chatalerta [USUARIO] [MENSAJE] - Envia mensajes a un usuario.
+:disparar [USUARIO] - Disparale a un usuario
+:pedo [USUARIO] - Tirar pedo en la cara del usuario.
+:patearculo [USUARIO] - Golpee el culo de otro usuario.
+:rko [USUARIO] - Rko a otro usuario.
+:cortar [USUARIO] - Cortale la cabeza a un usuario.
+:quemar [USUARIO] - Quemar a otro usuario.
+:fastwalk  - Obten la habilidad de caminar Rapido
+:caminarrapido  - Obten la habilidad de caminar Rapido
+:verusuarioson  - Ve los usarios conectados ahora mismo.
+:usuarioson  - Ve los usarios conectados ahora mismo.
+:goto [ROOMID] - 
+:taxi [ROOMID] - 
+:ira [ROOMID] - 
+:selfie  - Tomate una foto
+:bubble [ID] - Use una burbuja de conversacion con un ID
+:groupchat  - Borra tu Chat de Grupo.
+:chatdegrupo  - Borra tu Chat de Grupo.
+:convertcredits  - Lleva tus monedas de inventario a el Monedero
+:convertircredits  - Lleva tus monedas de inventario a el Monedero
+:convertircreditos  - Lleva tus monedas de inventario a el Monedero
+:convertdiamonds  - Lleva tus diamantes de inventario a el Monedero.
+:convertirdiamantes  - Lleva tus diamantes de inventario a el Monedero.
+:convertduckets  - Convertir sus muebles canjeables por duckets reales.
+:convertirduckets  - Convertir sus muebles canjeables por duckets reales.
+:hidewired  - Esconde los furnis Wired de tu sala.
+:ocultarwired  - Esconde los furnis Wired de tu sala.
+:wiredoff  - Esconde los furnis Wired de tu sala.
+:eventtype %type% %id% - Cambie el formato de la alerta seleccionada.
+:tipoevento %type% %id% - Cambie el formato de la alerta seleccionada.
+:changelog  - Últimas actualizaciones de Yezz.
+:cambios  - Últimas actualizaciones de Yezz.
+:chess  - Activar el modo ajedrez.
+:ajedrez  - Activar el modo ajedrez.
+:random %min% %max% - Genera una cifra aleatoria entre 2 números.
+:build %height% - 
+:color  - off/red/green/blue/cyan/purple
+:handitem [ID] - Le permite llevar un item en su mano.
+:carry [ID] - Le permite llevar un item en su mano.
+:itemenmano [ID] - Le permite llevar un item en su mano.
+:about  - Información de Yezz.
+:info  - Información de Yezz.
+:online  - Ver cantidad de usuarios en línea.
+:disablewhispers  - Activar o desactivar la capacidad de recibir susurros.
+:desactivarsusurros  - Activar o desactivar la capacidad de recibir susurros.
+:mimic [USUARIO] - Copiar la ropa de otro usuario conectad@.
+:copy [USUARIO] - Copiar la ropa de otro usuario conectad@.
+:disablemimic  - Activar o desactivar la opción de que copien tu ropa.
+:disablecopy  - Activar o desactivar la opción de que copien tu ropa.
+:desactivarcopy  - Activar o desactivar la opción de que copien tu ropa.
+:pet  - Transformarte en una mascota.
+:mascota  - Transformarte en una mascota.
+:mutepets  - Silenciar todo lo que digan las mascotas.
+:silenciarmascotas  - Silenciar todo lo que digan las mascotas.
+:mutebots  - Silenciar todo lo que digan los BOTs.
+:silenciarbots  - Silenciar todo lo que digan los BOTs.
+:dance [BAILE] - Activar un baile en tu personaje, de 0 a 4.
+:bailar [BAILE] - Activar un baile en tu personaje, de 0 a 4.
+:push [USUARIO] - Empujar a alguien desde tu posición.
+:empujar [USUARIO] - Empujar a alguien desde tu posición.
+:empujon [USUARIO] - Empujar a alguien desde tu posición.
+:pull [USUARIO] - Atraer a un usuario hacia tí.
+:halar [USUARIO] - Atraer a un usuario hacia tí.
+:jalar [USUARIO] - Atraer a un usuario hacia tí.
+:enable [EFECTO ID] - Habilitar un efecto en tu personaje.
+:efecto [EFECTO ID] - Habilitar un efecto en tu personaje.
+:follow [USUARIO] - Seguir a un usuario a la sala en la que esté.
+:seguir [USUARIO] - Seguir a un usuario a la sala en la que esté.
+:empty [YES] - Vaciar el inventario de tu personaje.
+:emptyitems [YES] - Vaciar el inventario de tu personaje.
+:limpiarinventario [YES] - Vaciar el inventario de tu personaje.
+:disablefriends  - Activar o desactivar las solicitudes de amistad.
+:desactivarsolicitudes  - Activar o desactivar las solicitudes de amistad.
+:enablefriends  - Activar o desactivar las solicitudes de amistad.
+:activarsolicitudes  - Activar o desactivar las solicitudes de amistad.
+:disablegifts  - Activar o desactivar la recepción de regalos.
+:desactivarregalos  - Activar o desactivar la recepción de regalos.
+:lay  - Tumbarse en el suelo.
+:acostarse  - Tumbarse en el suelo.
+:sit  - Sentarse en el suelo.
+:sentarse  - Sentarse en el suelo.
+:stand  - Levantarse.
+:pararse  - Levantarse.
+:stats  - Revisar tus estadísticas.
+:estadisticas  - Revisar tus estadísticas.
+:dnd  - Activar o desactivar los mensajes de consola.
+:desactivarmensajes  - Activar o desactivar los mensajes de consola.
+:pickall  - Recoger todos tus objetos que tengas en la sala.
+:recoger  - Recoger todos tus objetos que tengas en la sala.
+:recogertodo  - Recoger todos tus objetos que tengas en la sala.
+:ejectall  - Expulsar todos los objetos de grupo en la sala.
+:builder  - Habilita el teletransporte en tu sala para construir con más facilidad.
+:constructor  - Habilita el teletransporte en tu sala para construir con más facilidad.
+:unload id - Recarga la sala.
+:reload  - Recarga la sala
+:recargar  - Recarga la sala
+:fixroom  - Regenerar el mapa de la sala en la que estás.
+:regenmaps  - Regenerar el mapa de la sala en la que estás.
+:regenerarmapa  - Regenerar el mapa de la sala en la que estás.
+:setmax [NUMERO] - Aumenta o reduce el aforo máximo en tu sala.
+:setspeed [NUMERO] - Graduar la velocidad de los rollers de 0 a 10.
+:disablediagonal  - Desactivar la opción de andar en diagonal en tu sala.
+:desactivardiagonal  - Desactivar la opción de andar en diagonal en tu sala.
+:room [COMANDO] - Activar o desactivar estas funciones dentro de tu sala.
+:sala [COMANDO] - Activar o desactivar estas funciones dentro de tu sala.
+:desactivarcomandosensala [COMANDO] - Activar o desactivar estas funciones dentro de tu sala.
+:kickpets  - Expulsar a todas las mascotas de tu sala.
+:echarmascotas  - Expulsar a todas las mascotas de tu sala.
+:kickbots  - Expulsar a todos los BOTs dentro de tu sala.
+:echarbots  - Expulsar a todos los BOTs dentro de tu sala.
+:ayuda %message% - Envía una petición de ayuda, describiendo brevemente tu problema.
+:help %message% - Envía una petición de ayuda, describiendo brevemente tu problema.
+:kissuser [USUARIO] - Besar a alguien si la sala lo permite.
+:besar [USUARIO] - Besar a alguien si la sala lo permite.
+:beso [USUARIO] - Besar a alguien si la sala lo permite.
+:golpear [USUARIO] - Golpear a alguien si la sala lo permite.
+:golpe [USUARIO] - Golpear a alguien si la sala lo permite.
+:curar  - Curar el una hinchazón por algún golpe recibido.
+:buyroom  - Compra una sala en venta de cualquier usuario.
+:comprarroom  - Compra una sala en venta de cualquier usuario.
+:comprarsala  - Compra una sala en venta de cualquier usuario.
+:sellroom %precio% - Poner en venta la sala en que te encuentras.
+:venderroom %precio% - Poner en venta la sala en que te encuentras.
+:vendersala %precio% - Poner en venta la sala en que te encuentras.
+:kill [USUARIO] - Mata al usuario x.x
+:matar [USUARIO] - Mata al usuario x.x
+:ausente  - Ponte ausente.
+:afk  - Ponte ausente.
+:despertar  - Despierta.
+:sexo [USUARIO] - Tenga relaciones sexuales con un usuario.
+:paja  - Hacerse una paja.
+:hacerpaja [USUARIO] - Hacer una paja a un usuario.
+:fumar [ACCEPT] - Fumar un blunt, Blunts costo (1000c) C/u.
+:smoke [ACCEPT] - Fúmate un Blunt, Blunts cuestan (1000c)..
+:variables  - Lista de variables en tu WIRED: Mensaje.
+:wired  - Lista de variables en tu WIRED: Mensaje.
+:disablespam  - Activar o desactivar la capacidad de recibir spam.
+:apostar [DIAMANTES] - Establezca cuántos diamantes quiere apostar en las tragaperras.
+:apuesta [DIAMANTES] - Establezca cuántos diamantes quiere apostar en las tragaperras.
+:casino  - start/pl. Mantiene la cuenta de tu juego de da2.
+:jugarda2  - start/pl. Mantiene la cuenta de tu juego de da2.
+:contador  - start/pl. Mantiene la cuenta de tu juego de da2.
+:closedice  - Cierra los 5 dados cerca de tu keko organizados de forma tradicional.
+:cerrarda2  - Cierra los 5 dados cerca de tu keko organizados de forma tradicional.
+:cerrardice  - Cierra los 5 dados cerca de tu keko organizados de forma tradicional.
+:eha [MENSAJE] - Enviar Alerta de Evento al Hotel!
+:eventha [MENSAJE] - Enviar Alerta de Evento al Hotel!
+:evento [MENSAJE] - Enviar Alerta de Evento al Hotel!
+:pha  - Enviar una alerta de hotel para su evento!
+:oleada  - Enviar una alerta de hotel para su evento!
+:eventoda2  - Envia alerta de Da2 al hotel del evento!
+:poll [TIEMPO] [PREGUNTA] - Realizar una encuesta rápida.
+:encuesta [TIEMPO] [PREGUNTA] - Realizar una encuesta rápida.
+:endpoll  - Borrar una encuesta rápida.
+:quizz [USUARIO] - Realizar una encuesta rápida.
+:radioalert [MENSAJE] - Envía una alerta a todo el hotel de emisión.
+:radio [MENSAJE] - Envía una alerta a todo el hotel de emisión.
+:dj [MENSAJE] - Envía una alerta a todo el hotel de emisión.
+:djalert [MENSAJE] - Envía una alerta a todo el hotel de emisión.
+:notievento  - Crea un nuevo evento express.
+:eventoexpress  - Crea un nuevo evento express.
+:eventexpress  - Crea un nuevo evento express.
+:masspoll [ID] - Envia una encuesta a todo el hotel
+:notifica [NOTIFICACION] - Envía una notificación a todos los usuarios.
+:megaoferta [ON] ó [OFF] - Encender o apagar una mega oferta.
+:special [EXPLICACION] - Manda un evento a todo el hotel.
+:ee [EXPLICACION] - Manda un evento a todo el hotel.
+:es [EXPLICACION] - Manda un evento a todo el hotel.
+:fbconcurso [DE Q SE TRATA] - ¡¡Nuevo concurso de fb!!
+:bp [USUARIO] - Banear a publicista.
+:bpu [USUARIO] - Banear a publicista.
+:banpubli [USUARIO] - Banear a publicista.
+:banearpubli [USUARIO] - Banear a publicista.
+:prefixname [PREFIX] - off/red/green/blue/cyan/purple
+:tagname [PREFIX] - off/red/green/blue/cyan/purple
+:prefijoname [PREFIX] - off/red/green/blue/cyan/purple
+:pcolor  - off/red/green/blue/cyan/purple
+:prefijocolor  - off/red/green/blue/cyan/purple
+:tagcolor  - off/red/green/blue/cyan/purple
+:prefixcolor  - off/red/green/blue/cyan/purple
+:sa [MENSAJE] - Enviar mensaje a los staff.
+:staffalerta [MENSAJE] - Enviar mensaje a los staff.
+:coords  - Obtener Coordenadas de su posición.
+:coordenadas  - Obtener Coordenadas de su posición.
+:alleyesonme  - Quieres un poco de Atencion? todos te miran
+:iloveforbi  - Quieres un poco de Atencion? todos te miran
+:allaroundme  - Necesitas atención? Pon todos los ojos en ti.
+:forbifamoso  - Necesitas atención? Pon todos los ojos en ti.
+:ignorewhispers  - Le permite ignorar todos los murmullos en la sala , a excepción de su propia
+:ignorarsusurro  - Le permite ignorar todos los murmullos en la sala , a excepción de su propia
+:forced_effects  - Posibilidad de ignorar o permitir efectos forzadas.
+:desactivarefectos  - Posibilidad de ignorar o permitir efectos forzadas.
+:troll [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:msgusers [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:trollusers [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:notialert [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:teleport  - Obten la habilidad de teletransportarte.
+:tele  - Obten la habilidad de teletransportarte.
+:crack  - Obten la habilidad de teletransportarte.
+:override  - Caminar sobre cualquier cosa.
+:unconoemadre  - Caminar sobre cualquier cosa.
+:superfastwalk  - Le da la capacidad de caminar muy muy rápido.
+:caminarsuperrapido  - Le da la capacidad de caminar muy muy rápido.
+:forcesit [USUARIO] - Sentar a otro usuario.
+:sientate [USUARIO] - Sentar a otro usuario.
+:forcelay [USUARIO] - Forzar al usuario a acostarse.
+:acuestate [USUARIO] - Forzar al usuario a acostarse.
+:forcestand [USUARIO] - Forzar al usuario a pararse.
+:parate [USUARIO] - Forzar al usuario a pararse.
+:userson  - Ver los usuarios online.
+:genteon  - Ver los usuarios online.
+:goboom  - Hacer boom! (Se aplica el efecto 108)
+:spam  - evita spam!
+:c [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:summon [USUARIO] - Traer a un usuario a la sala actual.
+:traer [USUARIO] - Traer a un usuario a la sala actual.
+:ui [USUARIO] - Ver información de un usuario.
+:userinfo [USUARIO] - Ver información de un usuario.
+:informacionde [USUARIO] - Ver información de un usuario.
+:userinformacion [USUARIO] - Ver información de un usuario.
+:roomunmute  - Desmutear sala.
+:desmutearsala  - Desmutear sala.
+:roommute [MENSAJE] - Mutear sala.
+:mutearsala [MENSAJE] - Mutear sala.
+:roomalert [MENSAJE] - Enviar mensaje a todos en la sala.
+:salaalerta [MENSAJE] - Enviar mensaje a todos en la sala.
+:roomkick [MENSAJE] - Expulsar a todos los usuarios de estas ala.
+:echaratodos [MENSAJE] - Expulsar a todos los usuarios de estas ala.
+:echardelasala [MENSAJE] - Expulsar a todos los usuarios de estas ala.
+:mute [USUARIO] [TIEMPO] - Mutear al usuario por un tiempo.
+:smute [USUARIO] [TIEMPO] - Mutear al usuario por un tiempo.
+:silenciar [USUARIO] [TIEMPO] - Mutear al usuario por un tiempo.
+:mutear [USUARIO] [TIEMPO] - Mutear al usuario por un tiempo.
+:unmute [USUARIO] - Desmutear usuario.
+:desmutear [USUARIO] - Desmutear usuario.
+:kick [USUARIO] [MENSAJE] - Expulsar al usuario y enviarle la razón por la cual.
+:skick [USUARIO] [MENSAJE] - Expulsar al usuario y enviarle la razón por la cual.
+:dc [USUARIO] - Desconectar a un usuario.
+:disconnect [USUARIO] - Desconectar a un usuario.
+:desconectar [USUARIO] - Desconectar a un usuario.
+:alert [USUARIO] [MENSAJE] - Enviar alerta a un usuario.
+:tradeban [USUARIO] [TIEMPO] - Prohibir el tradeo de otro usuario.
+:freeze [USUARIO] - Congelar a un usuario.
+:congelar [USUARIO] - Congelar a un usuario.
+:unfreeze [USUARIO] - Permitir que otro usuario a caminar de nuevo.
+:descongelar [USUARIO] - Permitir que otro usuario a caminar de nuevo.
+:customalert [MENSAJE] - Envia un mensaje de alerta al Hotel.
+:ban [USUARIO] [TIEMPO] [RAZÓN] - Banear usuario.
+:banear [USUARIO] [TIEMPO] [RAZÓN] - Banear usuario.
+:mip [USUARIO] - Machine ban, Banear IP y la cuenta de otro usuario.
+:ipban [USUARIO] - Banear usuario por IP.
+:banearip [USUARIO] - Banear usuario por IP.
+:ha [MENSAJE] - Enviar alerta al hotel.
+:hotelalert [MENSAJE] - Enviar alerta al hotel.
+:lastmsg [USUARIO] - Consulta los últimos mensajes del usuario.
+:verhistorial [USUARIO] - Consulta los últimos mensajes del usuario.
+:lastconsolemsg [USUARIO] - Consulta los últimos mensajes del usuario en la consola.
+:verhistorialdeconsola [USUARIO] - Consulta los últimos mensajes del usuario en la consola.
+:senduser [USUARIO] [SALAID] - Manda a un Usuario a una sala por id
+:enviarusuario [USUARIO] [SALAID] - Manda a un Usuario a una sala por id
+:makesay [USUARIO] [MENSAJE] - Que otro usuario diga algo.
+:di [USUARIO] [MENSAJE] - Que otro usuario diga algo.
+:flaguser [USUARIO] - Cambiar el nombre a un usuario.
+:cambiatedenombre [USUARIO] - Cambiar el nombre a un usuario.
+:makepublic  - Convertir está sala en publica.
+:salapublica  - Convertir está sala en publica.
+:makeprivate  - Convertir está sala en privada.
+:salaprivada  - Convertir está sala en privada.
+:roombadge [CODIGO] - Dar placa a toda la sala.
+:darplacaalasala [CODIGO] - Dar placa a toda la sala.
+:salaplaca [CODIGO] - Dar placa a toda la sala.
+:givebadge [USUARIO] [IDPLACA] - Dar placa a un usuario.
+:darplaca [USUARIO] [IDPLACA] - Dar placa a un usuario.
+:give [USUARIO] [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a un usuario.
+:dar [USUARIO] [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a un usuario.
+:darmoneda [USUARIO] [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a un usuario.
+:massenable [EFFECTID] - Efecto a cada usuario en la sala.
+:efectoparatodos [EFFECTID] - Efecto a cada usuario en la sala.
+:massdance [DANCEID] - A Bailar todo el mundo.
+:baileparatodos [DANCEID] - A Bailar todo el mundo.
+:premiar [USUARIO] - Hace todas las funciones para premiar a un ganador de eventos.
+:roomgive [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a la sala.
+:massbadge [CODIGO] - Dar placas a todo el hotel.
+:placaparatodos [CODIGO] - Dar placas a todo el hotel.
+:hotelplaca [CODIGO] - Dar placas a todo el hotel.
+:massgive [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a todos en el Hotel.
+:hoteleconomia [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a todos en el Hotel.
+:daratodosmonedas [MONEDA] [MONTO] - Dar créditos, duckets, diamantes a todos en el Hotel.
+:hal [URL] [MENSAJE] - Mandar mensaje al hotel con link.
+:alertaurl [URL] [MENSAJE] - Mandar mensaje al hotel con link.
+:unban [USUARIO] - Desbanear usuario.
+:desbanear [USUARIO] - Desbanear usuario.
+:quitarban [USUARIO] - Desbanear usuario.
+:addblackword [PALABRA] - Añadir palabras al filtro.
+:filtro [PALABRA] - Añadir palabras al filtro.
+:rank [USUARIO] [TIPO] [RANGO] - Escribe :rank para ver la explicación.
+:verclones [USUARIO] - Ver clones.
+:viewinventary [USUARIO] - Permite ver el inventario de un usuario
+:verinventario [USUARIO] - Permite ver el inventario de un usuario
+:deletegroup  - Eliminar un grupo de la base de datos y la memoria caché.
+:borrargrupo  - Eliminar un grupo de la base de datos y la memoria caché.
+:addtag <usuario> <tag> - Añadir TAGs de un usuario.
+:ca [MENSAJE] - Envia un mensaje a todo el Hotel
+:summonall  - Trae a todos los usuarios.
+:atraeratodos  - Trae a todos los usuarios.
+:givespecial [USUARIO] - 
+:massevent [EVENTO] - Ejecuta un EVENT a todos los usuarios en línea.
+:removebadge [USUARIO] [CODIGO] - Se utiliza para quitarle la placa a un usuario.
+:ia [IMAGEN] - Envía un mensaje de alerta con imagen a todo el hotel.
+:iau [USUARIO] [IMAGEN] - Enviale un Mensaje de alerta a un usuario
+:viewevents  - Observa una lista de los eventos abiertos por los Staffs.
+:viewevent  - Observa una lista de los eventos abiertos por los Staffs.
+:vereventos  - Observa una lista de los eventos abiertos por los Staffs.
+:staffson  - Observa una lista de todos los staffs conectados.
+:staffons  - Observa una lista de todos los staffs conectados.
+:emptyuser [USUARIO] - Limpiar Inventario a un Usuario
+:borrarinventariode [USUARIO] - Limpiar Inventario a un Usuario
+:darvip [USUARIO] - Dar rango VIP a una persona.
+:alerttype %type% %id% - Cambie el formato de la alerta seleccionada.
+:addpredesigned  - Agrega la Sala a las Salas pre-diseñadas
+:addpackdesala  - Agrega la Sala a las Salas pre-diseñadas
+:addpack  - Agrega la Sala a las Salas pre-diseñadas
+:addlote  - Agrega la Sala a las Salas pre-diseñadas
+:removepredesigned  - Elimina la Sala de la lista de Salas pre-diseñadas
+:quitarpackdesala  - Elimina la Sala de la lista de Salas pre-diseñadas
+:quitarpack  - Elimina la Sala de la lista de Salas pre-diseñadas
+:quitarlote  - Elimina la Sala de la lista de Salas pre-diseñadas
+:update [VARIABLE] - Actualizar una parte específica del hotel.
+:actualizar [VARIABLE] - Actualizar una parte específica del hotel.
+:item (tipo) (cantidad) - Envia una alerta a todo el hotel.
+:dcall  - Reinicia (deconecta a todos).
+:shutdownforbi  - ¡Cierra el hotel!
+:reiniciarforbi  - Reinisialo wn
+:voucher [MENSAJE] - Enviale un mensaje de alerta a todos los staff online.
+:forcebox  - TEST Command - Rewards
+:mw  - Activar o desactivar las solicitudes de amistad.
+:progress <usuario> <achievement> <puntos> - Progresar la recompensa de un usuario.
+:control <usuario> - Controla al usuario que selecciones.
+:dice %number% - Allows you to carry a hand item
+:link %message% - Envia un link a la sala

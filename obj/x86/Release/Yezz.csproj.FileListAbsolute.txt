@@ -1,0 +1,12 @@
+D:\xabbo\UFO Emu\bin\Debug\UFOServer.exe.config
+D:\xabbo\UFO Emu\bin\Debug\UFOServer.exe
+D:\xabbo\UFO Emu\bin\Debug\UFOServer.pdb
+D:\xabbo\UFO Emu\bin\Debug\Fleck.dll
+D:\xabbo\UFO Emu\bin\Debug\log4net.dll
+D:\xabbo\UFO Emu\bin\Debug\MySql.Data.dll
+D:\xabbo\UFO Emu\bin\Debug\log4net.xml
+D:\xabbo\UFO Emu\obj\x86\Release\Yezz.csprojAssemblyReference.cache
+D:\xabbo\UFO Emu\obj\x86\Release\Yezz.csproj.CoreCompileInputs.cache
+D:\xabbo\UFO Emu\obj\x86\Release\Yezz.csproj.CopyComplete
+D:\xabbo\UFO Emu\obj\x86\Release\UFOServer.exe
+D:\xabbo\UFO Emu\obj\x86\Release\UFOServer.pdb
